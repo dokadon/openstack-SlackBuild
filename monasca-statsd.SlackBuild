@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for keystone
+# Slackware build script for monasca-statsd
 
 # Copyright 2016 Don Perry US
 # All rights reserved.
@@ -23,8 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-PRGNAM=keystone
-VERSION=${VERSION:-9.0.0}
+PRGNAM=monasca-statsd
+VERSION=${VERSION:-1.0.4}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 

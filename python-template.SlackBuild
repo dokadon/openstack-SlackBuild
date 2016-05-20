@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# Slackware build script for keystone
+# Slackware build script for <appname>
 
-# Copyright 2016 Don Perry US
+# Copyright <year> <you> <where you live>
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -22,9 +22,34 @@
 #  OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+# |-----------------------------------------------------------------| #
+# REMOVE THIS ENTIRE BLOCK OF TEXT #
+#
+# A license is required, and we strongly suggest you use the above
+# BSD/MIT style license. We DO NOT accept "Public Domain" scripts.
+# Public domain is not valid in some countries, and no license is
+# worse than a "bad" license in those countries.
+#
+# This template is not meant to be a 'cut and paste' script to
+# enable any random user to make a working package.  While
+# we're certainly not discouraging use of this template, if
+# you haven't manually gone through each step of the process
+# without the build script (typically as a normal user, as this
+# will reveal problems that you won't see as root), then there's
+# a good chance that something important is missing from your
+# submission.
 
-PRGNAM=keystone
-VERSION=${VERSION:-9.0.0}
+# When using this template script, please remove as many of
+# these unnecessary comments as possible.  Commented code is
+# a good thing, but if it's obvious, there's no need to comment it.
+#
+# AGAIN, REMOVE THE COMMENTS IF THEY ARE NOT NEEDED - DON'T JUST
+# DELETE THIS BLOCK OF TEXT WITHOUT BOTHERING TO READ WHAT'S IN IT.
+#
+# |-----------------------------------------------------------------| #
+
+PRGNAM=appname
+VERSION=${VERSION:-1.4.1}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
