@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for os-client-config
+# Slackware build script for solum_guestagent
 
 # Copyright 2016 Don Perry US
 # All rights reserved.
@@ -23,8 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-PRGNAM=os-client-config
-VERSION=${VERSION:-1.9.0}
+PRGNAM=solum_guestagent
+VERSION=${VERSION:-1.0.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
