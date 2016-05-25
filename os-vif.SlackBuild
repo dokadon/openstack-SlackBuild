@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for keystoneauth1
+# Slackware build script for os-vif
 
 # Copyright 2016 Don Perry US
 # All rights reserved.
@@ -23,8 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-PRGNAM=keystoneauth1
-VERSION=${VERSION:-2.4.0}
+PRGNAM=os-vif
+VERSION=${VERSION:-1.0.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
