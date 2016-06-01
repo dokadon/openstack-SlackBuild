@@ -24,7 +24,7 @@
 
 
 PRGNAM=oslo.log
-VERSION=${VERSION:-3.7.0}
+VERSION=${VERSION:-3.8.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
@@ -97,7 +97,11 @@ find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | gr
 
 # Copy the slack-desc (and a custom doinst.sh if necessary) into ./install
 mkdir -p $PKG/install
-#cat $CWD/slack-desc > $PKG/install/slack-desc
+
+# Create slack-desc file
+python $CWD/slackdesc.py $CWD $PRGNAM $VERSION $PRGNAM $PRGNAM
+
+cat $CWD/slack-desc > $PKG/install/slack-desc
 #cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
 # Make the package; be sure to leave it in $OUTPUT
@@ -106,3 +110,4 @@ mkdir -p $PKG/install
 # the makepkg command below -- see makepkg(8) for details
 cd $PKG
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}
+
