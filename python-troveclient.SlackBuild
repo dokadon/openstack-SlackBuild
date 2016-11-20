@@ -24,7 +24,7 @@
 
 
 PRGNAM=python-troveclient
-VERSION=${VERSION:-2.1.2}
+VERSION=${VERSION:-2.2.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
