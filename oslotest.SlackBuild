@@ -24,7 +24,7 @@
 
 
 PRGNAM=oslotest
-VERSION=${VERSION:-2.5.0}
+VERSION=${VERSION:-2.10.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 

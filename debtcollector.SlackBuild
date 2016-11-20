@@ -24,7 +24,7 @@
 
 
 PRGNAM=debtcollector
-VERSION=${VERSION:-1.4.0}
+VERSION=${VERSION:-1.8.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
