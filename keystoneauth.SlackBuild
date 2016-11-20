@@ -24,7 +24,7 @@
 
 
 PRGNAM=keystoneauth
-VERSION=${VERSION:-2.7.0}
+VERSION=${VERSION:-2.12.2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
