@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import sys
 import subprocess
 
 class SlackDesc:
@@ -9,6 +10,7 @@ class SlackDesc:
 
     def slackdesc(
 	    self,
+	    output_dir,
 	    package_name,
 	    version,
 	    short_desc,
@@ -31,18 +33,21 @@ class SlackDesc:
 	stdout=p.stdout.readlines()
 
 	# Write the slack-desc file
-        slack_desc_file = open('slack-desc','w')
+        slack_desc_filename = "%s/slack-desc" % output_dir
+        slack_desc_file = open(slack_desc_filename,'w')
 	slack_desc_file.writelines(stdout)
 
 
 if __name__ == "__main__":
-    package_name= sys.argv[1]
-    version= sys.argv[2]
-    short_desc= sys.argv[3]
-    long_desc= sys.argv[4]
+    output_dir = sys.argv[1]
+    package_name= sys.argv[2]
+    version= sys.argv[3]
+    short_desc= sys.argv[4]
+    long_desc= sys.argv[5]
 
     sd=SlackDesc()
     sd.slackdesc(
+	output_dir,
 	package_name,
 	version,
 	short_desc,
