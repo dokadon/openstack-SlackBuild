@@ -24,7 +24,7 @@
 
 
 PRGNAM=ironic
-VERSION=${VERSION:-6.2.1}
+VERSION=${VERSION:-6.2.2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
