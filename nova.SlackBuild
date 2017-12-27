@@ -2,7 +2,7 @@
 
 # Slackware build script for nova
 
-# Copyright 2016 Don Perry US
+# Copyright 2017 Don Perry US
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -24,7 +24,7 @@
 
 
 PRGNAM=nova
-VERSION=${VERSION:-14.0.2}
+VERSION=${VERSION:-14.0.10}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
