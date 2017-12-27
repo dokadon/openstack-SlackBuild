@@ -2,7 +2,7 @@
 
 # Slackware build script for zaqar
 
-# Copyright 2016 Don Perry US
+# Copyright 2017 Don Perry US
 # All rights reserved.
 #
 # Redistribution and use of this script, with or without modification, is
@@ -24,7 +24,7 @@
 
 
 PRGNAM=zaqar
-VERSION=${VERSION:-3.0.0}
+VERSION=${VERSION:-6.0.0.0b2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
