@@ -24,7 +24,7 @@
 
 
 PRGNAM=freezer-web-ui
-VERSION=${VERSION:-6.0.0.0b2}
+VERSION=${VERSION:-6.0.0.0b3}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
