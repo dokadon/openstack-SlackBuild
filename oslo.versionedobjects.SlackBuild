@@ -24,7 +24,7 @@
 
 
 PRGNAM=oslo.versionedobjects
-VERSION=${VERSION:-1.31.1}
+VERSION=${VERSION:-1.31.2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
