@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for openstacksdk
+# Slackware build script for aodhclient
 
 # Copyright 2018 Don Perry US
 # All rights reserved.
@@ -23,8 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-PRGNAM=openstacksdk
-VERSION=${VERSION:-0.11.1}
+PRGNAM=aodhclient
+VERSION=${VERSION:-1.0.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
