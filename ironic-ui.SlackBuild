@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for openstacksdk
+# Slackware build script for ironic-ui
 
 # Copyright 2018 Don Perry US
 # All rights reserved.
@@ -23,8 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-PRGNAM=openstacksdk
-VERSION=${VERSION:-0.11.3}
+PRGNAM=ironic-ui
+VERSION=${VERSION:-3.1.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
