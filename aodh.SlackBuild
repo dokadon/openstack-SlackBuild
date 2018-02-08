@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for monasca-agent
+# Slackware build script for aodh
 
 # Copyright 2018 Don Perry US
 # All rights reserved.
@@ -23,8 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-PRGNAM=monasca-agent
-VERSION=${VERSION:-2.6.0}
+PRGNAM=aodh
+VERSION=${VERSION:-6.0.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
