@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for barbican
+# Slackware build script for openstack_requirements
 
 # Copyright 2018 Don Perry US
 # All rights reserved.
@@ -23,8 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-PRGNAM=barbican
-VERSION=${VERSION:-6.0.0.0rc1}
+PRGNAM=openstack_requirements
+VERSION=${VERSION:-1.2.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
