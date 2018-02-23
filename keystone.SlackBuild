@@ -24,7 +24,7 @@
 
 
 PRGNAM=keystone
-VERSION=${VERSION:-13.0.0.0rc1}
+VERSION=${VERSION:-13.0.0.0rc2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
