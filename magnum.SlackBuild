@@ -24,7 +24,7 @@
 
 
 PRGNAM=magnum
-VERSION=${VERSION:-6.0.1}
+VERSION=${VERSION:-6.1.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
