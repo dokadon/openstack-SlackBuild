@@ -24,7 +24,7 @@
 
 
 PRGNAM=networking-midonet
-VERSION=${VERSION:-6.0.0.0rc2}
+VERSION=${VERSION:-6.0.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 

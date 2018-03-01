@@ -24,7 +24,7 @@
 
 
 PRGNAM=networking-bagpipe
-VERSION=${VERSION:-8.0.0.0rc1}
+VERSION=${VERSION:-8.0.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
