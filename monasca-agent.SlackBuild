@@ -24,7 +24,7 @@
 
 
 PRGNAM=monasca-agent
-VERSION=${VERSION:-2.6.1}
+VERSION=${VERSION:-2.6.2}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
