@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Slackware build script for os-client-config
+# Slackware build script for kuryr-lib
 
 # Copyright 2018 Don Perry US
 # All rights reserved.
@@ -23,8 +23,8 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-PRGNAM=os-client-config
-VERSION=${VERSION:-1.31.2}
+PRGNAM=kuryr-lib
+VERSION=${VERSION:-0.8.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
