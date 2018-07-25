@@ -24,7 +24,7 @@
 
 
 PRGNAM=barbican
-VERSION=${VERSION:-6.0.1}
+VERSION=${VERSION:-6.0.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
