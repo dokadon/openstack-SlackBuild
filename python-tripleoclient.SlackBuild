@@ -24,7 +24,7 @@
 
 
 PRGNAM=python-tripleoclient
-VERSION=${VERSION:-9.2.2}
+VERSION=${VERSION:-9.2.3}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
