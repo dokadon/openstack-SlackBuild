@@ -31,7 +31,7 @@ TAG=${TAG:-_SBo}
 # Automatically determine the architecture we're building on:
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
-    i?86) ARCH=i486 ;;
+    i?86) ARCH=i586 ;;
     arm*) ARCH=arm ;;
 # Unless $ARCH is already set, use uname -m for all other archs:
        *) ARCH=$( uname -m ) ;;
@@ -42,9 +42,10 @@ CWD=$(pwd)
 TMP=${TMP:-/tmp/SBo}
 PKG=$TMP/package-$PRGNAM
 OUTPUT=${OUTPUT:-/tmp}
+INSTALL_DIR=/usr/local
 
-if [ "$ARCH" = "i486" ]; then
-  SLKCFLAGS="-O2 -march=i486 -mtune=i686"
+if [ "$ARCH" = "i586" ]; then
+  SLKCFLAGS="-O2 -march=i586 -mtune=i686"
   LIBDIRSUFFIX=""
 elif [ "$ARCH" = "i686" ]; then
   SLKCFLAGS="-O2 -march=i686 -mtune=i686"
@@ -73,7 +74,8 @@ find -L . \
   -o -perm 440 -o -perm 400 \) -exec chmod 644 {} \;
 
 # Your application may need different options; this is only an example 
-python setup.py install --root=$PKG
+#python setup.py install --root=$PKG
+python setup.py install --root=$INSTALL_DIR
 
 # Strip binaries and libraries.
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
@@ -100,7 +102,6 @@ mkdir -p $PKG/install
 
 # Create slack-desc file
 python $CWD/slackdesc.py $CWD $PRGNAM $VERSION $PRGNAM $PRGNAM
-
 cat $CWD/slack-desc > $PKG/install/slack-desc
 #cat $CWD/doinst.sh > $PKG/install/doinst.sh
 
