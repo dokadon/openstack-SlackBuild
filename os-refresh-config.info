@@ -1,10 +1,10 @@
 PRGNAM=os-refresh-config
 VERSION=8.3.0
 HOMEPAGE=homepage
-DOWNLOAD=download
+DOWNLOAD=https://tarballs.openstack.org/os-refresh-config/os-refresh-config-8.3.0.tar.gz
 MD5SUM=md5sum
-DOWNLOAD_x86_64=download
-MD5SUM_x86_64=md5sum
-REQUIRES=requires
+DOWNLOAD_x86_64=
+MD5SUM_x86_64=
+REQUIRES=
 MAINTAINER="Don Perry"
 EMAIL="don.perry@dokasystems.com"
