@@ -1,0 +1,10 @@
+PRGNAM=neutron
+VERSION=12.0.3
+HOMEPAGE=homepage
+DOWNLOAD=download
+MD5SUM=md5sum
+DOWNLOAD_x86_64=download
+MD5SUM_x86_64=md5sum
+REQUIRES=requires
+MAINTAINER="Don Perry"
+EMAIL="don.perry@dokasystems.com"
