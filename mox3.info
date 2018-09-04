@@ -1,10 +1,10 @@
 PRGNAM=mox3
 VERSION=0.24.0
 HOMEPAGE=homepage
-DOWNLOAD=https://tarballs.openstack.org/mox3/mox3-0.24.0.tar.gz
+DOWNLOAD=download
 MD5SUM=md5sum
-DOWNLOAD_x86_64=
-MD5SUM_x86_64=
-REQUIRES=
+DOWNLOAD_x86_64=download
+MD5SUM_x86_64=md5sum
+REQUIRES=requires
 MAINTAINER="Don Perry"
 EMAIL="don.perry@dokasystems.com"

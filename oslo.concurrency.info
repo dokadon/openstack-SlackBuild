@@ -1,10 +1,10 @@
 PRGNAM=oslo.concurrency
 VERSION=3.25.1
 HOMEPAGE=homepage
-DOWNLOAD=https://tarballs.openstack.org/oslo.concurrency/oslo.concurrency-3.25.1.tar.gz
+DOWNLOAD=download
 MD5SUM=md5sum
-DOWNLOAD_x86_64=
-MD5SUM_x86_64=
-REQUIRES=
+DOWNLOAD_x86_64=download
+MD5SUM_x86_64=md5sum
+REQUIRES=requires
 MAINTAINER="Don Perry"
 EMAIL="don.perry@dokasystems.com"
