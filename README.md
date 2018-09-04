@@ -1,4 +1,6 @@
 # openstack-SlackBuild
-SlackBuild scripts for building Openstack on Slackware. There should be a tar file for each SlackBuild script.
-The packages have also been built into their respective TGZ packages and can be found here.  http://downloads.dokasystems.com/openstack-slackware/slackware-14.1/.
-These are alpha level packages and still require a lot of testing.
+SlackBuild tar files for building Openstack on Slackware.
+
+The packages are in the process of also being built into their respective TGZ packages and once completed will be found here:  http://downloads.dokasystems.com/openstack-slackware/slackware-14.2/.
+
+These are alpha level packages and require A LOT of testing.
