@@ -8,3 +8,7 @@ The SlackBuild tar files all begin with `openstack-`.
 All other tar files are the source code tar files from the Openstack website https://releases.openstack.org/ and are kept in the `app-source-tars` directory only for convenience in building the Slackware `tgz` files.  The SlackBuild tar files will eventually be submitted to https://slackbuilds.org/ once they are completed and fully tested.
 
 These are alpha level packages and require A LOT of testing.
+
+## Requirements
+
+* Slackware 14.2
