@@ -11,8 +11,8 @@ The SlackBuild tar files all begin with `openstack-` and will eventually be subm
 * Slackware 14.2
 
 ## Release Schedule
-* Alpha - Current
+* Stein Alpha - Current
 
 These are alpha release level packages and are NOT complete.  They require A LOT of testing.
 
-* Production - 09/01/19
+* Stein Production - 09/01/19
