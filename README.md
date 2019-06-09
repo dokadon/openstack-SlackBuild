@@ -12,6 +12,7 @@ The SlackBuild tar files all begin with `openstack-` and will eventually be subm
 
 ## Release Schedule
 * Stein Alpha - Current
-  These are alpha release level packages and are NOT complete.  They require A LOT of testing.
+
+  _These are alpha release level packages and are NOT complete.  They require A LOT of testing._
 
 * Stein Production - 09/01/19
