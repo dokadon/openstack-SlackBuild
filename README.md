@@ -15,4 +15,4 @@ The SlackBuild tar files all begin with `openstack-` and will eventually be subm
 
   _**These are alpha release level packages and are NOT complete.  They require A LOT of testing.**_
 
-* Stein Production - 10/01/19
+* Stein Production - 11/01/19
